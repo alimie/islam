@@ -19,7 +19,7 @@ The site introduces the core beliefs and practices of Islam: the five pillars, t
 ## Tech
 
 - Vanilla HTML, CSS, and a small JavaScript enhancement for the mobile menu and scroll-reveal animations
-- No build step or external dependencies
+- No build step or framework; fonts load from the Google Fonts CDN (with system-font fallbacks)
 - Responsive, mobile-first layout with an Arabic/Islamic colour palette
 - Arabic script set in the Amiri typeface; headings set in Lalezar; body in Quicksand
 
