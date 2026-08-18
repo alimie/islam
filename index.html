@@ -1,30 +1,253 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Basic of Islamic Priciples</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <h1>Basics of Islam</h1>
-        <img src="images/mecca.jpg" alt="Mecca" class="center">
-        <h2>5 Pillars of Islam</h2>
-        <h3>Profession of Faith (shahada).</h3>
-        <p>أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا ٱللَّٰهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ ٱللَّٰهِ<br>
-            &#10230; ašhadu ʾan lā ʾilāha ʾilla -llāhu, wa-ʾašhadu ʾanna muḥammadan rasūlu -llāhi<br>
-            &#10230; I bear witness that there is no deity but God, and I bear witness that Muhammad is the messenger of God.</p>
-        <h3>Prayer (salat).</h3>
-        <h3>Alms (zakat).</h3>
-        <h3>Fasting during Ramadhan (sawm).</h3>
-        <h3>Pilgrimage to Mecca (hajj).</h3>
-        <h2>6 Pillars of Faith (Imaan)</h2>
-        <h3>Belief in Allah as the one and only God.</h3>
-        <h3>Belief in the Angels.</h3>
-        <h3>Belief in the holy books.</h3>
-        <h3>Belief in Allah's messengers (prophet) and that Muhammad is the last of them.</h3>
-        <h3>Belief in the Day of Judgement.</h3>
-        <h3>Belief in the Qadhaa' and  Qadr (predestination).</h3>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A friendly, modern introduction to Islam: the five pillars, the six pillars of faith, the Quran, the Prophet Muhammad, and everyday practice.">
+    <meta name="theme-color" content="#0e7a5f">
+    <title>Basics of Islam — A Modern Introduction</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Amiri:wght@400;700&family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <a class="brand" href="#top">
+            <span class="brand-mark">﷽</span>
+            <span class="brand-text">Basics of Islam</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#pillars">Five Pillars</a></li>
+                <li><a href="#faith">Six Pillars of Faith</a></li>
+                <li><a href="#quran">The Quran</a></li>
+                <li><a href="#prophet">The Prophet</a></li>
+                <li><a href="#practice">Daily Practice</a></li>
+                <li><a href="#glossary">Glossary</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-badge">اَلسَّلَامُ عَلَيْكُمْ</div>
+            <h1>Peace be upon you</h1>
+            <p class="hero-sub">An approachable guide to the beliefs, practices, and beauty of Islam — built to read beautifully on any screen.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#pillars">Start with the Five Pillars</a>
+                <a class="btn btn-ghost" href="#quran">Explore the Quran</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="section reveal" id="intro">
+            <div class="section-head">
+                <span class="kicker">Introduction</span>
+                <h2>What is Islam?</h2>
+            </div>
+            <div class="prose">
+                <p><strong>Islam</strong> (الإسلام) means <em>"peace"</em> and <em>"submission"</em> to the will of God (Allah). It is the final message in a long line of guidance revealed through prophets including Adam, Noah, Abraham, Moses, Jesus, and finally Muhammad ﷺ.</p>
+                <p>A Muslim is someone who peacefully submits their will to God. Islam teaches that God is One, that He is merciful and just, and that every person is accountable for their own intentions and deeds. Muslims follow the Quran and the authentic sayings and example of the Prophet Muhammad ﷺ (the <em>sunnah</em>).</p>
+                <p>At its core, Islam rests on two foundations: the <strong>five pillars</strong> (acts of worship) and the <strong>six pillars of faith</strong> (beliefs). Both are explained below.</p>
+            </div>
+            <div class="stat-grid">
+                <div class="stat"><span class="stat-num">5</span><span class="stat-label">Pillars of Islam</span></div>
+                <div class="stat"><span class="stat-num">6</span><span class="stat-label">Pillars of Faith</span></div>
+                <div class="stat"><span class="stat-num">5</span><span class="stat-label">Daily Prayers</span></div>
+                <div class="stat"><span class="stat-num">114</span><span class="stat-label">Chapters of the Quran</span></div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="pillars">
+            <div class="section-head">
+                <span class="kicker">The Five Pillars</span>
+                <h2>Five Pillars of Islam</h2>
+                <p class="lede">The five pillars are the framework of Muslim life — acts of worship that express devotion and bring a person closer to God.</p>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-icon">ٱلشَّهَادَةُ</div>
+                    <h3>1 · Shahada — Profession of Faith</h3>
+                    <p class="arabic">أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا ٱللَّٰهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ ٱللَّٰهِ</p>
+                    <p class="translit">Ašhadu an lā ilāha illā-llāh, wa ašhadu anna Muḥammadan rasūlu-llāh.</p>
+                    <p>"I bear witness that there is no god but God, and I bear witness that Muhammad is the Messenger of God." Sincerely declaring this with the heart and tongue is how a person enters Islam.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">ٱلصَّلَاةُ</div>
+                    <h3>2 · Salat — Prayer</h3>
+                    <p class="arabic">ٱلصَّلَاةُ</p>
+                    <p class="translit">Aṣ-Ṣalāh</p>
+                    <p>Performing the five daily prayers — Fajr, Dhuhr, Asr, Maghrib, and Isha — facing the Kaaba in Mecca. Prayer is a direct connection between the believer and God, offered at dawn, noon, mid-afternoon, sunset, and night.</p>
+                    <ul class="pill-list">
+                        <li>Fajr — before dawn</li>
+                        <li>Dhuhr — midday</li>
+                        <li>Asr — afternoon</li>
+                        <li>Maghrib — after sunset</li>
+                        <li>Isha — night</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <div class="card-icon">ٱلزَّكَاةُ</div>
+                    <h3>3 · Zakat — Alms</h3>
+                    <p class="arabic">ٱلزَّكَاةُ</p>
+                    <p class="translit">Az-Zakāh</p>
+                    <p>Giving a fixed portion (2.5% of accumulated wealth) to those in need. Zakat purifies wealth, reminds Muslims of their blessings, and supports the poor, the needy, travellers, and those burdened by debt.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">ٱلصَّوْمُ</div>
+                    <h3>4 · Sawm — Fasting</h3>
+                    <p class="arabic">صَوْمُ رَمَضَانَ</p>
+                    <p class="translit">Ṣawm Ramaḍān</p>
+                    <p>Fasting from dawn to sunset during the month of Ramadan. Muslims abstain from food, drink, and bad habits, developing self-control, gratitude, and empathy for the less fortunate. The fast is broken daily at sunset.</p>
+                </article>
+                <article class="card">
+                    <div class="card-icon">ٱلْحَجُّ</div>
+                    <h3>5 · Hajj — Pilgrimage</h3>
+                    <p class="arabic">ٱلْحَجُّ</p>
+                    <p class="translit">Al-Ḥajj</p>
+                    <p>The pilgrimage to Mecca performed at least once in a lifetime by those who are physically and financially able. It is a journey of unity, humility, and remembrance, circling the Kaaba as one community before God.</p>
+                </article>
+            </div>
+            <figure class="figure">
+                <img src="images/mecca.jpg" alt="The Masjid al-Haram in Mecca" loading="lazy">
+                <figcaption>The Kaaba in the Masjid al-Haram, Mecca — the direction Muslims face in prayer (the qibla).</figcaption>
+            </figure>
+        </section>
+
+        <section class="section reveal" id="faith">
+            <div class="section-head">
+                <span class="kicker">The Six Pillars of Faith</span>
+                <h2>Six Pillars of Faith (Iman)</h2>
+                <p class="lede">The beliefs at the heart of Islam — what a Muslim sincerely holds in the heart.</p>
+            </div>
+            <div class="list-block">
+                <div class="list-item">
+                    <span class="list-num">1</span>
+                    <div><h3>Belief in Allah</h3><p>Belief in God as the One and only deity, the Creator and Sustainer of all that exists.</p></div>
+                </div>
+                <div class="list-item">
+                    <span class="list-num">2</span>
+                    <div><h3>Belief in the Angels</h3><p>Belief in the angels as honourable beings created from light who carry out God's commands.</p></div>
+                </div>
+                <div class="list-item">
+                    <span class="list-num">3</span>
+                    <div><h3>Belief in the Holy Books</h3><p>Belief in the scriptures revealed to the prophets, and in the Quran as God's final, preserved revelation.</p></div>
+                </div>
+                <div class="list-item">
+                    <span class="list-num">4</span>
+                    <div><h3>Belief in the Messengers</h3><p>Belief in all of God's prophets — and that Muhammad ﷺ is the last and final of them.</p></div>
+                </div>
+                <div class="list-item">
+                    <span class="list-num">5</span>
+                    <div><h3>Belief in the Day of Judgement</h3><p>Belief that every soul will be raised and held accountable for its deeds.</p></div>
+                </div>
+                <div class="list-item">
+                    <span class="list-num">6</span>
+                    <div><h3>Belief in Divine Decree</h3><p>Belief in Qadhaa' and Qadr — that God's knowledge and decree encompass all, both the good and the difficult.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="quran">
+            <div class="section-head">
+                <span class="kicker">The Holy Book</span>
+                <h2>The Quran</h2>
+            </div>
+            <div class="prose">
+                <p>The <strong>Quran</strong> (ٱلْقُرْآن) is the holy book of Islam — the literal word of God revealed to the Prophet Muhammad ﷺ through the Angel Gabriel (Jibreel) over about 23 years. It is the final and most complete revelation, confirming and completing the messages brought by earlier prophets.</p>
+                <p>The Quran is organised into <strong>114 chapters</strong> (surahs), which are divided into verses (ayah). It was revealed in Arabic, and Muslims worldwide recite it in Arabic, accompanied by memorisation and reflection.</p>
+                <ul>
+                    <li><strong>Recitation:</strong> Muslims recite the Quran in the five daily prayers.</li>
+                    <li><strong>Memorisation:</strong> Millions of Muslims commit the whole Quran to memory (a <em>hafiz</em>).</li>
+                    <li><strong>Reflection:</strong> Muslims are encouraged to understand, ponder, and apply its guidance.</li>
+                </ul>
+            </div>
+            <blockquote class="quote">
+                <p class="arabic">ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ</p>
+                <p>"Read! In the name of your Lord Who created."</p>
+                <cite>— Quran, Surah Al-Alaq (96:1)</cite>
+            </blockquote>
+        </section>
+
+        <section class="section reveal" id="prophet">
+            <div class="section-head">
+                <span class="kicker">The Messenger</span>
+                <h2>The Prophet Muhammad ﷺ</h2>
+            </div>
+            <div class="prose">
+                <p>Muhammad ﷺ (c. 570–632 CE) was born in Mecca and is regarded by Muslims as the final Prophet and Messenger of God. He received the first revelation at the age of 40 in the cave of Hira. His life and character — known as the <strong>sunnah</strong> — are recorded in collections of sayings and actions called <em>hadith</em>.</p>
+                <p>Muslims love and honour him as a mercy to all creation, and strive to follow his example of honesty, compassion, patience, and devotion to God. When his name is mentioned, Muslims say "ﷺ" (sallallahu alayhi wa sallam), meaning "peace and blessings of God be upon him."</p>
+                <ul>
+                    <li>Known before prophethood as <strong>"Al-Amin"</strong> — the trustworthy.</li>
+                    <li>Prophets before him include Adam, Noah, Abraham, Moses, and Jesus.</li>
+                    <li>He is the "Seal of the Prophets" — the final messenger to humanity.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section reveal" id="practice">
+            <div class="section-head">
+                <span class="kicker">Everyday Life</span>
+                <h2>Daily Practice</h2>
+                <p class="lede">Islam is lived in the rhythms of daily life — remembrance, kindness, and service.</p>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Remembrance of God</h3>
+                    <p>Muslims begin the day remembering God, and weave short prayers (dhikr) throughout daily activities — before eating, travelling, sleeping, and entering the home.</p>
+                </article>
+                <article class="card">
+                    <h3>Character & Kindness</h3>
+                    <p>Good character is central. The Prophet ﷺ said, "The best of you are those with the best character." Honesty, generosity, and caring for neighbours and family are acts of worship.</p>
+                </article>
+                <article class="card">
+                    <h3>Charity & Service</h3>
+                    <p>Beyond the yearly zakat, Muslims are encouraged to give voluntary charity (sadaqah) — even a smile is counted as charity. Service to others is beloved to God.</p>
+                </article>
+                <article class="card">
+                    <h3>Moderation & Purity</h3>
+                    <p>Islam teaches balance — caring for body and soul, avoiding harm, and keeping physical and spiritual purity through regular washing (wudu) and prayer.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section reveal" id="glossary">
+            <div class="section-head">
+                <span class="kicker">Glossary</span>
+                <h2>Common Islamic Terms</h2>
+            </div>
+            <div class="glossary">
+                <div class="term"><h3>Allah</h3><p>The Arabic word for God — the One and only deity.</p></div>
+                <div class="term"><h3>Sunnah</h3><p>The way and example of the Prophet Muhammad ﷺ.</p></div>
+                <div class="term"><h3>Hadith</h3><p>A recorded saying or action of the Prophet ﷺ.</p></div>
+                <div class="term"><h3>Masjid</h3><p>A mosque — a place of prayer and community.</p></div>
+                <div class="term"><h3>Imam</h3><p>A prayer leader or religious community leader.</p></div>
+                <div class="term"><h3>Qibla</h3><p>The direction of the Kaaba in Mecca, faced in prayer.</p></div>
+                <div class="term"><h3>Eid</h3><p>A festival — Eid al-Fitr (end of Ramadan) and Eid al-Adha (end of Hajj).</p></div>
+                <div class="term"><h3>Ummah</h3><p>The global community of Muslims.</p></div>
+                <div class="term"><h3>Sadaqah</h3><p>Voluntary charity given for the sake of God.</p></div>
+                <div class="term"><h3>Bismillah</h3><p>"In the name of God" — said before beginning any good action.</p></div>
+            </div>
+        </section>
+    </main>
+
+    <section class="cta reveal">
+        <h2>May this be a starting point on your journey</h2>
+        <p>If you have questions, a local mosque or a knowledgeable person can offer a warm welcome and guidance. The door of Islam is open to everyone.</p>
+        <a class="btn btn-primary" href="#top">Back to top</a>
+    </section>
+
+    <footer class="site-footer">
+        <p><span class="brand-mark">﷽</span></p>
+        <p>Basics of Islam — a personal reference on Islamic principles and teachings.</p>
+        <p class="footer-note">This page is an introductory reference and is not a substitute for scholarly guidance.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
